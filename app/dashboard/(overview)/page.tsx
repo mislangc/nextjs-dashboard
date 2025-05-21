@@ -7,6 +7,7 @@ import CardWrapper from '@/app/ui/dashboard/cards';
 import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton } from '@/app/ui/skeletons';
 
 export default async function Page() {
+    console.log(Card);
     return (
         <main>
             <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
@@ -29,5 +30,3 @@ export default async function Page() {
         </main>
     );
 }
-
-console.log(Card);
